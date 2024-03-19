@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    text-align:center;
+    border:#000 1px solid;
+    padding: 200px 300px 200px 300px;
+}
+.container{
+    background-color: #ffd1d1;
+}
+.header{
+    margin: auto;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.header h1{
+    color: white;
+    background-color: #ff3c3c;
+    width: 400px;
+    height: 55px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+.header p{
+    font-family: serif;
+    font-size: x-large;
+    padding: 30px 40px 30px 40px;
+}
+hr{
+    margin: auto;
+    width: 70%;
+    border:#ff3c3c 2px solid;
+    border-style:dashed;
+    
+}
+.main h2{
+    font-size: xx-large;
+    width: auto;
+    padding: 50px 0px 30px 0px;
+}
+.main h4{
+    position: relative;
+    top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #ff3c3c;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+.main1 h4{
+    position: relative;
+    top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color:#ff3c3c;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+.main2 h4{
+    position: relative;
+    top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #ff3c3c;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+.sub-container1{
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+.sub-container2{
+    margin: auto;
+    padding: 30px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team1{
+    width: 30%;
+    padding-top: 20px;
+}
+.team2{
+    padding: 20px 20px 20px 20px;
+}
+.name{
+    font-weight: bold;
+}
+.desig{
+    font-style: oblique;
+    color: #ff3c3c;
+    font-weight:bold;
+    padding-top: 5px;
+}
+.img{
+    border-radius: 50%;
+}
+.span{
+    float: left;
+}
+.span img{
+    width: 100px;
+}
+.span1{
+    float: left;
+}
+.left{
+    position: absolute;
+    width: 100px;  
+}
+.span2{
+    float: right;
+    width: 200px;
+}
+.right{
+    position: absolute;
+    width: 100px;
+}
+
+
+
